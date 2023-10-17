@@ -2,10 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="diseño_formulario.css">
-    
-    <h1 class="text-center">Bienvenido</h1>
-    
+   
 </head>
 <body>
     
