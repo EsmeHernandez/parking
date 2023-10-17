@@ -3,10 +3,9 @@
 <header>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="diseño_formulario.css">
-	<?php include "dbconnect.php"; ?>
 </header>
 <body>
-    
+   <?php include "dbconnect.php"; ?> 
 <form method="POST" action="iniSesionBD.php">
 <div class="container" >
 
