@@ -1,9 +1,4 @@
-<?php 
- include "dbconnect.php";
- 
- 
 
- ?>
 <form method="POST" action="iniSesionBD.php">
 <div class="container" >
 
