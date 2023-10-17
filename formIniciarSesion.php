@@ -5,12 +5,7 @@
       <header>
         <link rel="stylesheet" type="text/css" href="diseño_formulario.css">
 
-		<h1>
-			<a href="#">
-				<img src="logo.png" alt="Authentic Collection">
-			</a>
-		</h1>
-	</header>
+      </header>
 </head>
 <body>
     
