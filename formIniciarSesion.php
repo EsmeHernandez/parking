@@ -2,14 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-   
-</head>
-<body>
-    
-<form method="POST" action="iniSesionBD.php">
-<div class="container" >
-
-	<header>
+      <header>
         <link rel="stylesheet" type="text/css" href="diseño_formulario.css">
 
 		<h1>
@@ -18,6 +11,13 @@
 			</a>
 		</h1>
 	</header>
+</head>
+<body>
+    
+<form method="POST" action="iniSesionBD.php">
+<div class="container" >
+
+	
 	<h1 class="text-center">Bienvenido</h1>
 	<form class="registration-form">
 		
