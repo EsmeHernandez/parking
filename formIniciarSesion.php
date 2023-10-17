@@ -1,4 +1,4 @@
-
+<html>
 <form method="POST" action="iniSesionBD.php">
 <div class="container" >
 
@@ -36,3 +36,4 @@
 	</form>
 </div>
 </form>
+</html>
