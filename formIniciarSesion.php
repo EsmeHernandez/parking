@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<header>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="diseño_formulario.css">
-</head>
+</header>
 <body>
     
 <form method="POST" action="iniSesionBD.php">
