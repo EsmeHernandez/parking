@@ -2,7 +2,7 @@
 $host="localhost";
 $user="root";
 $psw="root1234";
-$db="parking_inteligente";
+$db="parking-inteligente";
 
 $miConexion=mysqli_connect($host, $user,$psw,$db);
 if(mysqli_errno($miConexion)){
