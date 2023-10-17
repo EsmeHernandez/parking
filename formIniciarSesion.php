@@ -5,7 +5,6 @@
     <link rel="stylesheet" type="text/css" href="diseño_formulario.css">
 </header>
 <body>
-   <?php include "dbconnect.php"; ?> 
 <form method="POST" action="iniSesionBD.php">
 <div class="container" >
 
@@ -38,3 +37,4 @@
 </body>
 
 </html>
+ <?php include "dbconnect.php"; ?> 
