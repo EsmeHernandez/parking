@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<form method="POST" action="iniSesionBD.php">
-<div class="container" >
-<header>
-        <link rel="stylesheet" type="text/css" href="diseño_formulario.css">
-
-	</header>
-	
-	<h1 class="text-center">Bienvenido</h1>
-	<form class="registration-form">
-		
+<head>
+    <meta charset="UTF-8">
+    <title>Login / Register</title>
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    
+    <link rel="stylesheet" href="icon/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    
+<div class="container-form">
+        <div class="header">
+            <div class="logo-title">
+                <img src="image/logo.png" alt="">
+                <h2>Seguridad en IoT</h2>
+            </div>
+            <div class="menu">
+                <a href="login.php"><li class="module-login active">Login</li></a>
+                <a href="register.php"><li class="module-register">Register</li></a>
+            </div>
+        </div>
         
-        <label>
-			<span class="label-text">Username</span>
-			<input type="text" name="usuario_u">
-		</label>
-        <label>
-			<span class="label-text">Password</span>
-			<input type="text" name="password_u">
-		</label>
-        
-		<label class="checkbox">
-			<input type="checkbox" name="newsletter">
-			<span>Topicos de la Industria 4.0</span>
-		</label>
-		<div class="text-center">
-			<button style="color: white" class="submit" name="register">Iniciar Sesion</button>
-		</div>
-        <p>
-
-		
-
-	</form>
-</div>
-</form>
-
+        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" class="form">
+            <div class="welcome-form"><h1>Bienvenido</h1><h2>Seguridad en IoT</h2></div>
+            <div class="user line-input">
+                <label class="lnr lnr-user"></label>
+                <input type="text" placeholder="Nombre Usuario" name="usuario">
+            </div>
+            <div class="password line-input">
+                <label class="lnr lnr-lock"></label>
+                <input type="password" placeholder="Contraseña" name="clave">
+            </div>
+            
+             <?php if(!empty($error)): ?>
+            <div class="mensaje">
+                <?php echo $error; ?>
+            </div>
+            <?php endif; ?>
+            
+            <button type="submit">Entrar<label class="lnr lnr-chevron-right"></label></button>
+        </form>
+    </div>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
